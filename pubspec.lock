@@ -37,12 +37,19 @@ packages:
     source: hosted
     version: "0.13.0+1"
   angular_forms:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: angular_forms
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.2"
+  angular_router:
+    dependency: "direct main"
+    description:
+      name: angular_router
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0-alpha+22"
   angular_test:
     dependency: "direct dev"
     description:
@@ -464,7 +471,7 @@ packages:
     source: hosted
     version: "1.26.10"
   sass_builder:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: sass_builder
       url: "https://pub.dartlang.org"

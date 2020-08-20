@@ -1,0 +1,7 @@
+@import "palettes";
+
+$primary: map-get($md-wood, 500);
+$accent: map-get($md-gabbygreen, 500);
+$warn: map-get($md-warn, A400);
+
+$mobile-size: 900px;

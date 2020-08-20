@@ -1,0 +1,14 @@
+@import "package:angular_components/css/material/material";
+@import "variables";
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $mat-grey-800;
+  color: $mat-white;
+}
+
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}

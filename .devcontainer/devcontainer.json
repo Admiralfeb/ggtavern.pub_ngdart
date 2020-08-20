@@ -15,7 +15,10 @@
   },
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
-    "dart-code.dart-code"
+    "dart-code.dart-code",
+    "pflannery.vscode-versionlens",
+    "mrmlnc.vscode-scss",
+    "sibiraj-s.vscode-scss-formatter"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
