@@ -14,9 +14,9 @@ jobs:
         uses: cedx/setup-dart@v2.2.0
       - run: pub global activate webdev
       - run: pub get
-      - run: webdev build
+      - run: pub global run webdev build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/web
+          publish_dir: ./build
