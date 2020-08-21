@@ -1,0 +1,25 @@
+<nav class="navbar" id="app-navbar">
+    <a id="homeImage" [routerLink]="RoutePaths.homepage.toUrl()" materialTooltip="Go to the Home Page"
+        (click)="hideNavMenu()"><img id="Z-img" src="assets/img/android-chrome-512x512.png"></a>
+    <a class="nav-link homeButton" [routerLink]="RoutePaths.homepage.toUrl()" routerLinkActive="active" mat-icon-button
+        materialTooltip="Home Page" (click)="hideNavMenu()">
+        <material-icon icon="home"></material-icon>
+    </a>
+    <a class="nav-link" [routerLink]="RoutePaths.menu.toUrl()" routerLinkActive="active"
+        materialTooltip="Food and Drink Menu" (click)="hideNavMenu()">Food and Drinks</a>
+    <a class="nav-link" [routerLink]="RoutePaths.games.toUrl()" routerLinkActive="active" materialTooltip="Game Menu"
+        (click)="hideNavMenu()">Game Menu</a>
+    <a class="nav-link" [routerLink]="RoutePaths.contact.toUrl()" routerLinkActive="active" materialTooltip="Contact Us"
+        (click)="hideNavMenu()">Contact</a>
+    <a class="nav-link" [routerLink]="RoutePaths.about.toUrl()" routerLinkActive="active" materialTooltip="About Us"
+        (click)="hideNavMenu()">About Us</a>
+    <a class="nav-link" [routerLink]="RoutePaths.events.toUrl()" routerLinkActive="active" materialTooltip="Events"
+        (click)="hideNavMenu()">Events</a>
+    <ng-container *ngIf="isLoggedIn">
+        <a class="nav-link" materialTooltip="Log Out" (click)="logout()">Log Out</a>
+    </ng-container>
+    <a class="nav-link mobileButton" href="javascript:void(0);" materialTooltip="Show Menu Items"
+        (click)="toggleNavMenu()">
+        <material-icon icon="menu"></material-icon>
+    </a>
+</nav>

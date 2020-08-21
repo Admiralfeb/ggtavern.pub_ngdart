@@ -1,4 +1,4 @@
-@import "../../web/scss/variables";
+@import "../../../web/scss/variables";
 
 .navbar {
   width: 100%;
@@ -8,7 +8,7 @@
   // background-color: orange;
   height: auto;
   min-height: auto;
-  justify-content: initial;
+  justify-content: space-evenly;
 }
 
 #homeImage {
