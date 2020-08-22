@@ -2,7 +2,7 @@ import 'package:angular/angular.dart';
 import 'package:angular_components/material_icon/material_icon.dart';
 import 'package:angular_components/material_tooltip/material_tooltip.dart';
 import 'package:angular_router/angular_router.dart';
-import '../routes.dart';
+import 'package:ggtavern/src/routes.dart';
 
 @Component(
     selector: 'app-navbar',

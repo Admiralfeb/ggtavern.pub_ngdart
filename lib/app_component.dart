@@ -1,7 +1,7 @@
 import 'package:angular/angular.dart';
 import 'package:angular_components/angular_components.dart';
 import 'package:angular_router/angular_router.dart';
-import 'package:ggtavern/src/navbar/navbar_component.dart';
+import 'package:ggtavern/src/core/navbar/navbar_component.dart';
 import 'package:ggtavern/src/routes.dart';
 
 // AngularDart info: https://angulardart.dev
